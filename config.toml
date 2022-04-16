@@ -39,7 +39,7 @@ description = "A digital garden on collective healing, mental health, intersecti
 heading = ""
 image = ""
 [params.blog]
-heading = "Hi! I believe that while healing can be done all alone, peer support is super helpful."
+heading = "Hi! I believe that while healing can be done alone, peer support is super helpful."
 [params.call_to_action]
 button_label = "Contact Us"
 button_url = "contact"
