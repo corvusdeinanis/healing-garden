@@ -11,9 +11,13 @@ title = "Healing Garden"
 [markup.goldmark.renderer]
 unsafe = true
 [[menu.desktop]]
-URL = "contact"
-name = "Contact"
-weight = 1
+URL = "blog"
+name = "Blog"
+weight = ""
+[[menu.desktop]]
+URL = "resource"
+name = "Resources"
+weight = ""
 [[menu.main]]
 URL = "/"
 name = "Home"
