@@ -1,4 +1,4 @@
-baseURL = "/home"
+baseURL = "/"
 disableLanguages = []
 disqusShortname = ""
 googleAnalytics = ""
