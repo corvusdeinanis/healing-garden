@@ -7,7 +7,7 @@ languageName = "En"
 paginate = "6"
 summaryLength = "10"
 theme = "github.com/themefisher/twenty-twenty-hugo"
-title = "Community Healing"
+title = "Healing Garden"
 [markup.goldmark.renderer]
 unsafe = true
 [[menu.desktop]]
@@ -33,11 +33,11 @@ weight = 4
 [outputs]
 home = ["HTML", "RSS", "JSON"]
 [params]
-author = "Themefisher"
-description = "This is meta description"
+author = "astro"
+description = "A digital garden on collective healing, mental health, intersectional healing, and reflections. By the community, for the community"
 [params.banner]
-heading = "The New UMoMA Opens its Doors"
-image = "images/2020-landscape-1-2.png"
+heading = ""
+image = ""
 [params.blog]
 heading = "The premier destination for modern art in Northern Sweden. Open from 10 AM to 6 PM every day during the summer months."
 [params.call_to_action]
