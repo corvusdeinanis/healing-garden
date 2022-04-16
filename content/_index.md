@@ -1,19 +1,18 @@
-{{ define "main" }}
-    <main aria-role="main">
-      <header class="homepage-header">
-        <h1>{{.Title}}</h1>
-        {{ with .Params.subtitle }}
-        <span class="subtitle">{{.}}</span>
-        {{ end }}
-      </header>
-      <div class="homepage-content">
-        <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
-        {{.Content}}
-      </div>
-      <div>
-        {{ range first 10 .Site.RegularPages }}
-            {{ .Render "summary"}}
-        {{ end }}
-      </div>
-    </main>
-{{ end }}
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ block "title" . }}
+      <!-- Blocks may include default content. -->
+      {{ .Site.Title }}
+    {{ end }}</title>
+  </head>
+  <body>
+    <!-- Code that all your templates share, like a header -->
+    {{ block "main" . }}
+      <!-- The part of the page that begins to differ between templates -->
+    {{ end }}
+    {{ block "footer" . }}
+    <!-- More shared code, perhaps a footer but that can be overridden if need be in  -->
+    {{ end }}
+  </body>
+</html>
