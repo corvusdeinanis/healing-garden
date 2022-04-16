@@ -5,7 +5,7 @@ date = ""
 description = ""
 image = ""
 tags = []
-title = "home"
+title = ""
 
 +++
 <p>This is an example page. It&#8217;s different from a blog post because it will stay in one place and will show
