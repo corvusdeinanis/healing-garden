@@ -71,5 +71,6 @@ twitter = ""
 yelp = ""
 [taxonomies]
 author = "author"
-category = "categories"
+category = "categories"[params]
 tag = "tags"
+  mainSections = [""]
