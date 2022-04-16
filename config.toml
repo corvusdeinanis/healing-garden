@@ -39,7 +39,6 @@ home = ["HTML", "RSS", "JSON"]
 [params]
 author = "astro"
 description = "A digital garden on collective healing, mental health, intersectional healing, and reflections. By the community, for the community"
-mainSections = ["content"]
 [params.banner]
 heading = "Community-centric help by the community, for the community"
 image = ""
