@@ -40,7 +40,7 @@ home = ["HTML", "RSS", "JSON"]
 author = "astro"
 description = "A digital garden on collective healing, mental health, intersectional healing, and reflections. By the community, for the community"
 [params.banner]
-heading = ""
+heading = "kn,"
 image = ""
 [params.blog]
 heading = "Hi! I believe that while healing can be done alone, peer support is super helpful."
